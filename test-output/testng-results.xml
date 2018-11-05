@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="34425" started-at="2018-11-04T17:30:52Z" finished-at="2018-11-04T17:31:27Z">
+    <groups>
+    </groups>
+    <test name="WalletAssignment" duration-ms="34425" started-at="2018-11-04T17:30:52Z" finished-at="2018-11-04T17:31:27Z">
+      <class name="com.wallethub.tests.FacebookLogin">
+        <test-method status="PASS" signature="loginFacebook()[pri:0, instance:com.wallethub.tests.FacebookLogin@14899482]" name="loginFacebook" duration-ms="34415" started-at="2018-11-04T23:00:52Z" finished-at="2018-11-04T23:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFacebook -->
+      </class> <!-- com.wallethub.tests.FacebookLogin -->
+    </test> <!-- WalletAssignment -->
+  </suite> <!-- Suite1 -->
+</testng-results>
