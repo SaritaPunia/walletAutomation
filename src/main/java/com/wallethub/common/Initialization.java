@@ -28,7 +28,7 @@ public class Initialization {
 	}
 
 	public static WebDriver getDriver() {
-		System.setProperty("webdriver.chrome.driver", "/home/sarita/chromedriver");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "/src/main/resources/chromedriver");
 		ChromeOptions coptions = new ChromeOptions();
 		coptions.addArguments("--disable-notifications");
 		WebDriver driver = new ChromeDriver(coptions);
